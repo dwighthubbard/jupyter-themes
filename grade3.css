@@ -526,3 +526,16 @@ div.output_subarea {
     flex: 1;
     max-width: calc(100% - 14ex);
 }
+
+#menubar-container {
+   opacity: 0;
+   transition: opacity .25s ease-in-out;
+   -o-transition: opacity .25s ease-in-out;
+   -ms-transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+#header:hover #menubar-container{
+    opacity: 1;
+}
